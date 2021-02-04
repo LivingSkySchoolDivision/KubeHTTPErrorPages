@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKERREPO = 'utilitywebsites/kubehttpserrorpages'
+        DOCKERREPO = 'utilitywebsites/kubehttperrorpages'
         FULL_DOCKER_REPO = "${PRIVATE_DOCKER_REGISTRY}/${DOCKERREPO}"
         TAG = "${BUILD_TIMESTAMP}"
     }
